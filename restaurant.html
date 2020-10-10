@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PizzaBurger - доставка еды на дом</title>
+    <title>Тануки - доставка еды на дом</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
@@ -17,7 +15,7 @@
         <!-- Шапка сайта -->
     <header class="header">
         <!-- Логотип -->
-        <a href="index.html" class="logo"><img src="img/logo.svg" alt="Logo" class="logo animate__animated animate__fadeInRight"></a>
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt="Logo" class="logo animated fadeInRight"></a>
         <input type="text" class="input input-address" placeholder="Адрес доставки">
         <div class="buttons">
             <button class="button button-primary">
@@ -122,7 +120,7 @@
                         </div>
                     </div>
                     <!-- /.card -->
-                    <div class="card">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
                         <img src="img/cesar-maki.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -148,7 +146,7 @@
                         </div>
                     </div>
                     <!-- /.card -->
-                    <div class="card">
+                    <div class="card wow fadeInUp" data-wow-delay="0.4s">
                         <img src="img/yasai-maki.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -174,7 +172,7 @@
                         </div>
                     </div>
                     <!-- /.card -->
-                    <div class="card wow fadeInRight">
+                    <div class="card wow fadeInUp" data-wow-delay="0.6s">
                         <img src="img/roll-krev.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -282,6 +280,9 @@
         </div>
     </div>
     <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>

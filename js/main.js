@@ -7,4 +7,3 @@ function toggleModal(){
   modal.classList.toggle("is-open")
 }
 
-new Wow().init();
